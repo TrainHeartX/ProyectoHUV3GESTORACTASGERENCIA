@@ -1,0 +1,96 @@
+﻿# ================================================================
+# Archivo .gitignore para el proyecto Gestor Actas Gerencia HUV
+# Indica a Git que archivos y carpetas debe ignorar del repositorio.
+# ================================================================
+
+# 1. Entornos virtuales y dependencias locales
+venv/
+venv0/
+env/
+ENV/
+env.bak/
+.venv/
+.venv*/
+.env/
+.env*/
+.python-version
+
+# 2. Herramientas auxiliares y dumps temporales
+Legacy/
+LEGACY/
+
+# 3. Cache y bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. Artefactos de compilacion y empaquetado
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.spec
+*.so
+*.dll
+*.exe
+
+# 5. Caches de pruebas y analisis estatico
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.nox/
+.tox/
+.cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# 6. Configuraciones de IDE y editores
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-*
+*.iml
+*.swp
+*.swo
+
+# 7. Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 8. Logs y archivos temporales
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+~$*
+*.lock
+evaris_main.log
+
+# 9. Configuracion sensible y credenciales
+config.dat
+config.ini
+config.local.ini
+config.dev.ini
+token*.txt
+*.sqlite3
+*.db
+
+# 10. Documentacion y datos pesados de referencia
+documentacion/
+documentacion1/
+todos los excels de pruebas/
+*.docx
+*.pptx
+*.pdf
+*.xlsx
+*.xls
+*.csv

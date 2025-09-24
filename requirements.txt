@@ -1,0 +1,9 @@
+python-docx
+Pillow
+pyaudio
+speechrecognition
+ttkbootstrap
+pypandoc
+cryptography
+huggingface_hub
+pyinstaller
